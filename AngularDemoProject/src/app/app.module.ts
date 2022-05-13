@@ -8,6 +8,7 @@ import { ResourceComponent } from './resource/resource.component';
 import { NextstepsComponent } from './nextsteps/nextsteps.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { LinksComponent } from './links/links.component';
+import { ServiceModule } from './services/service.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LinksComponent } from './links/links.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
